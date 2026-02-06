@@ -63,20 +63,6 @@ function addTabs() {
         name: "overview",
         title: "Overview",
     });
-    addTabGroup([
-        {
-            name: "reo",
-            title: "Regressions",
-        },
-        {
-            name: "tracked",
-            title: "Tracked",
-        },
-        {
-            name: "beta",
-            title: "Beta",
-        },
-    ]);
 }
 
 function updateAuth() {

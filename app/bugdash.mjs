@@ -4,14 +4,11 @@ import * as BugTable from "bugtable";
 import * as Dialog from "dialog";
 import * as Global from "global";
 import * as Tabs from "tabs";
-import * as Beta from "tabs/beta";
 import * as Components from "tabs/components";
 import * as Help from "tabs/help";
 import * as Important from "tabs/important";
 import * as Overview from "tabs/overview";
-import * as REO from "tabs/reo";
 import * as Stalled from "tabs/stalled";
-import * as Tracked from "tabs/tracked";
 import * as Triage from "tabs/triage";
 import * as Tooltips from "tooltips";
 
@@ -31,9 +28,6 @@ window.addEventListener("DOMContentLoaded", async () => {
     Triage.initUI();
     Stalled.initUI();
     Important.initUI();
-    REO.initUI();
-    Tracked.initUI();
-    Beta.initUI();
     Overview.initUI();
     Tooltips.initUI();
 

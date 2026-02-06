@@ -19,7 +19,8 @@ test:
 
 .PHONY: run
 run:
-	python3 -m http.server --bind 127.0.0.1
+	@echo "Starting local server at: http://127.0.0.1:8000"
+	@python3 -m http.server --bind 127.0.0.1
 
 .PHONY: clean
 clean:
