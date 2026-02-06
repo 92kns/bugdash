@@ -21,7 +21,7 @@ body:not(.component-warning) #selected-components-warning {
 }
 
 #component-filter.disabled {
-    background: #f8f8f8;
+    background: #f4f7f4;
     color: #bbb;
 }
 
@@ -37,14 +37,14 @@ label[for="filter-selected"].disabled {
 
 #components th,
 #components td {
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid #8fb88f;
     padding: 8px 5px;
     text-align: left;
     vertical-align: top;
 }
 
 #components tr.row:hover {
-    background-color: #e0e0e0;
+    background-color: #d4e7d4;
 }
 
 #components-th-cb {

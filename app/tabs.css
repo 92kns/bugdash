@@ -1,5 +1,5 @@
 #nav {
-    background: #28292a;
+    background: #1a3311;
     display: flex;
     padding-top: 2px;
     user-select: none;
@@ -19,11 +19,11 @@
 }
 
 #nav #key-button:hover {
-    color: #5f9ea0;
+    color: #90ee90;
 }
 
 #nav #key-button.authenticated {
-    color: #daa520;
+    color: #ffd700;
 }
 
 .tab-group {
@@ -35,19 +35,19 @@
 }
 
 .tab-group .tab:first-child {
-    border-left: 1px solid #656565;
+    border-left: 1px solid #2d5016;
     border-top-left-radius: 2px;
 }
 
 .tab-group .tab:last-child {
-    border-right: 1px solid #656565;
+    border-right: 1px solid #2d5016;
     border-top-right-radius: 2px;
 }
 
 .tab {
-    border-bottom: 1px solid #656565;
-    border-top: 1px solid #656565;
-    color: #fff;
+    border-bottom: 1px solid #2d5016;
+    border-top: 1px solid #2d5016;
+    color: #e8f5e8;
     cursor: pointer;
     font-weight: bold;
     padding: 0.5em 1em;
@@ -80,31 +80,32 @@ body:not(.egg) #global-error .egg {
 }
 
 .tab:hover {
-    color: #5f9ea0;
+    color: #90ee90;
+    background-color: #2d5016;
 }
 
 .tab.selected {
-    background-color: #f8f8f8;
-    border-color: #28292a;
-    border-top: 1px solid #f8f8f8;
+    background-color: #f4f7f4;
+    border-color: #1a3311;
+    border-top: 1px solid #f4f7f4;
     border-width: 1px 1px 0;
-    color: #28292a;
+    color: #1a3311;
 }
 
 .tab-group .tab.selected:first-child {
-    border-left: 1px solid #f8f8f8;
+    border-left: 1px solid #f4f7f4;
 }
 
 .tab-group .tab.selected:last-child {
-    border-right: 1px solid #f8f8f8;
+    border-right: 1px solid #f4f7f4;
 }
 
 .tab:not(.selected) {
-    border-bottom: 1px solid #28292a;
+    border-bottom: 1px solid #1a3311;
 }
 
 .tab.disabled {
-    color: #656565;
+    color: #5a7a5a;
 }
 
 #refresh-all-button {

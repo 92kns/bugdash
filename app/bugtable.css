@@ -1,14 +1,14 @@
 .bugtable-container {
     background: #fff;
-    border: 1px solid #28292a;
+    border: 1px solid #8fb88f;
     border-radius: 4px;
     color: #000;
 }
 
 .bugtable-header {
-    background: #eee;
+    background: #e8f5e8;
     border-radius: 4px;
-    color: #28292a;
+    color: #1a3311;
     display: flex;
     font-weight: bold;
     gap: 8px;

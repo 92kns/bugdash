@@ -11,12 +11,12 @@
 th.force-border,
 .bugtable tr td:not(:last-child, .no-border, .sub-border),
 td.force-border {
-    border-right: 1px solid #aaa;
+    border-right: 1px solid #8fb88f;
 }
 
 th.sub-border,
 td.sub-border {
-    border-right: 1px solid #eee;
+    border-right: 1px solid #e8f5e8;
 }
 
 .bugtable th.spanned {

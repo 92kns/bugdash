@@ -56,8 +56,8 @@ html {
 }
 
 body {
-    background-color: #f8f8f8;
-    color: #444;
+    background-color: #f4f7f4;
+    color: #1a3311;
     font-family: FiraGo, sans-serif;
     font-size: 15px;
     margin: 0;
@@ -74,17 +74,30 @@ button {
 
 button,
 select {
-    border: 1px solid silver;
+    border: 1px solid #8fb88f;
     border-radius: 2px;
     padding: 4px 8px;
+    background-color: #fff;
+}
+
+button:hover {
+    background-color: #e8f5e8;
+    border-color: #3a7d44;
 }
 
 input[type="text"],
 input[type="search"] {
-    border: 1px solid silver;
+    border: 1px solid #8fb88f;
     border-radius: 2px;
     padding: 4px 8px;
     width: 40em;
+    background-color: #fff;
+}
+
+input[type="text"]:focus,
+input[type="search"]:focus {
+    border-color: #3a7d44;
+    outline: none;
 }
 
 .hidden {
@@ -123,7 +136,7 @@ body:not(.loading) #loading {
 
 .loading-spinner::after {
     animation: loading-spinner 1.2s linear infinite;
-    border: 3px solid #444;
+    border: 3px solid #2d5016;
     border-left-color: transparent;
     border-radius: 50%;
     border-right-color: transparent;
@@ -168,5 +181,6 @@ body:not(.loading) #loading {
 
 .options-menu li:hover,
 .options-menu li.selected {
-    color: #00bfbf;
+    color: #3a7d44;
+    background-color: #e8f5e8;
 }

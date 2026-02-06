@@ -37,14 +37,14 @@
 }
 
 .buglist-group-actions a:hover {
-    color: #008080;
+    color: #2d5016;
 }
 
 .buglist-header {
-    background: #eee;
-    border: 1px solid #28292a;
+    background: #e8f5e8;
+    border: 1px solid #8fb88f;
     border-radius: 4px;
-    color: #28292a;
+    color: #1a3311;
     cursor: pointer;
     display: flex;
     font-weight: bold;
@@ -58,7 +58,7 @@
 }
 
 .buglist-header:hover {
-    background: #ddd;
+    background: #d4e7d4;
 }
 
 .buglist-container .actions button,
@@ -76,7 +76,7 @@
 }
 
 .buglist-container .actions .order-btn:not([data-mode="default"]) {
-    color: #008080;
+    color: #2d5016;
 }
 
 .buglist-header > div {
@@ -98,7 +98,7 @@
 }
 
 .buglist-header .counter {
-    color: #008080;
+    color: #2d5016;
 }
 
 .buglist-header .actions {
@@ -120,14 +120,14 @@
 }
 
 .buglist-loading {
-    border: 1px solid #28292a;
+    border: 1px solid #8fb88f;
     border-top: none;
     font-style: italic;
     padding: 8px;
 }
 
 .buglist {
-    border: 1px solid #28292a;
+    border: 1px solid #8fb88f;
     border-collapse: collapse;
     border-spacing: 0;
     border-top: none;
@@ -138,7 +138,7 @@
 }
 
 #help-buglist.buglist {
-    border: 1px solid #28292a;
+    border: 1px solid #8fb88f;
 }
 
 .buglist a {
@@ -151,7 +151,7 @@
 }
 
 .buglist .bug-id a {
-    color: #006cbf;
+    color: #3a7d44;
 }
 
 .buglist .bug-id a:visited {
@@ -163,7 +163,7 @@
 }
 
 .buglist tr.even {
-    background: #eee;
+    background: #e8f5e8;
 }
 
 .buglist td {
